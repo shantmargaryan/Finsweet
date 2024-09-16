@@ -1,0 +1,44 @@
+/* HERO START */
+.hero {
+    padding-block: 80px;
+    background-color: var(--Lavender-background);
+}
+
+.hero__container {}
+
+.container {}
+
+.hero__content {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.hero__title {
+    font-size: clamp(35px, 5vw, 48px);
+    margin-block-end: 5px;
+    text-align: center;
+}
+
+.hero__text {}
+
+/* HERO END */
+
+/* INFO START */
+.info {}
+
+.info__container {
+    max-width: 770px;
+}
+
+.info__title {
+    font-size: clamp(35px, 5vw, 48px);
+    margin-block-end: 30px;
+}
+
+.info__text {
+    margin-block-end: 30px;
+}
+
+.info__title__second {}
+
+/* INFO END */

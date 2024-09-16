@@ -1,0 +1,16 @@
+.header {
+    padding-block: 25px;
+    background-color: var(--universal-black);
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.herder__logo {
+    position: relative;
+    z-index: 11;
+}
+
