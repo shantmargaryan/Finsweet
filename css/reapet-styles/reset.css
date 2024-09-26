@@ -10,8 +10,8 @@ html {
     scroll-behavior: smooth;
 }
 
-.page,
-.page__body {
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -19,38 +19,34 @@ html {
 
 /*===/NULL CSS===========================================*/
 
-.page__body {
+body {
     font-size: 16px;
     font-family: Inter;
 }
 
-.link-reset {
+a {
     text-decoration: none;
 }
 
-.button-reset {
+button {
     padding: 0;
     background-color: transparent;
     cursor: pointer;
     border: none;
 }
 
-.text {
+p {
     margin: 0;
 }
 
-.list-reset {
+ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.input-reset {
+input {
     border: none;
     outline: none;
     background-color: transparent;
-}
-
-.data-list-reset {
-    margin: 0;
 }
