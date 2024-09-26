@@ -10,7 +10,6 @@ function navBar() {
             nav.style.paddingTop = header.offsetHeight + "px";
             burgerLines.forEach((line) => {
                 line.classList.toggle("burger_active");
-                overlay.classList.toggle("main__overlay_active");
             });
         } else if (event.target.closest(".burger") || event.target.closest(".main__overlay")) {
             nav.classList.remove("nav_active");
@@ -18,7 +17,6 @@ function navBar() {
             burgerLines.forEach((line) => {
                 line.classList.remove("burger_active");
             });
-            overlay.classList.remove("main__overlay_active");
         }
     });
 
