@@ -99,6 +99,11 @@
 
 .featured__title {}
 
+.featured__box {
+    padding: 32px;
+    border:  1px solid rgba(109, 110, 118, 0.1);
+}
+
 .featured__img {
     margin-block-end: 30px;
 }
@@ -307,7 +312,6 @@
 }
 
 .started__img {
-    max-width: 950px;
 }
 
 .started__content {
@@ -572,7 +576,7 @@
 
     .started__content {
         position: absolute;
-        bottom: 15%;
+        bottom: 0;
         right: 0;
         max-width: 700px;
     }
